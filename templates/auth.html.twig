@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{% block title %}{{ 'Shape It Solutions Auth' }}{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+
+        <!-- Prevent the demo from appearing in search engines -->
+        <meta name="robots"
+              content="noindex">
+
+        {% block stylesheets %}
+            <link rel="stylesheet"
+                  href="{{ asset('build/vendor/auth/perfect-scrollbar.css') }}">
+            <link rel="stylesheet"
+                    href="{{ asset('build/styles/auth/auth.css') }}">
+            <link rel="stylesheet"
+                    href="{{ asset('build/styles/auth/vendor-material-icons.css') }}">
+            <link rel="stylesheet"
+                    href="{{ asset('build/styles/auth/vendor-fontawesome-free.css') }}">
+        {% endblock %}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async
+                src="https://www.googletagmanager.com/gtag/js?id=UA-133433427-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-133433427-1');
+        </script>
+    </head>
+
+    <body class="layout-login-centered-boxed" style="
+        background-image: url('{{ asset('build/images/top-view-of-set-of-mechanical-equipment-on-dark-ta-2022-12-16-15-54-03-utc.jpg') }}');
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+    ">
+
+        {% block body %}{% endblock %}
+
+        {% block javascripts %}
+            <script src="{{ asset('build/vendor/auth/jquery.min.js') }}"></script>
+            <script src="{{ asset('build/vendor/auth/popper.min.js') }}"></script>
+            <script src="{{ asset('build/vendor/auth/bootstrap.min.js') }}"></script>
+            <script src="{{ asset('build/vendor/auth/perfect-scrollbar.min.js') }}"></script>
+            <script src="{{ asset('build/vendor/auth/dom-factory.js') }}"></script>
+            <script src="{{ asset('build/vendor/auth/material-design-kit.js') }}"></script>
+            <script src="{{ asset('build/javascripts/auth/toggle-check-all.js') }}"></script>
+            <script src="{{ asset('build/javascripts/auth/check-selected-row.js') }}"></script>
+            <script src="{{ asset('build/javascripts/auth/dropdown.js') }}"></script>
+            <script src="{{ asset('build/javascripts/auth/sidebar-mini.js') }}"></script>
+        {% endblock %}
+    </body>
+
+</html>

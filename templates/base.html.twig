@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description"
+              content="{{ 'Betratec | Your Best Business Support' }}">
+        <title>{% block title %}{{ 'Betratec | Your Best Business Support' }}{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        {% block stylesheets %}
+            <link href="{{ asset('build/styles/directory/bootstrap.min.css') }}" rel="stylesheet" />
+            <link href="{{ asset('build/styles/directory/font-awesome.min.css') }}" rel="stylesheet" />
+            <link href="{{ asset('build/styles/directory/themify-icons.css') }}" rel="stylesheet" />
+            <link href="{{ asset('build/styles/directory/flaticon-set.css') }}" rel="stylesheet" />
+            <link href="{{ asset('build/styles/directory/magnific-popup.css') }}" rel="stylesheet" />
+            <link href="{{ asset('build/styles/directory/owl.carousel.min.css') }}" rel="stylesheet" />
+            <link href="{{ asset('build/styles/directory/owl.theme.default.min.cs') }}s" rel="stylesheet" />
+            <link href="{{ asset('build/styles/directory/animate.css') }}" rel="stylesheet" />
+            <link href="{{ asset('build/styles/directory/bootsnav.css') }}" rel="stylesheet" />
+            <link href="{{ asset('build/styles/directory/style.css') }}" rel="stylesheet">
+            <link href="{{ asset('build/styles/directory/responsive.css') }}" rel="stylesheet" />
+        {% endblock %}
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="{{ asset('build/javascripts/directory/html5/html5shiv.min.js') }}"></script>
+        <script src="{{ asset('build/javascripts/directory/html5/respond.min.js') }}"></script>
+        <![endif]-->
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+
+        {% block javascripts %}
+            <script src="{{ asset('build/javascripts/directory/jquery-1.12.4.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/popper.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/bootstrap.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/equal-height.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/jquery.appear.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/jquery.easing.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/jquery.magnific-popup.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/modernizr.custom.13711.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/owl.carousel.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/wow.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/progress-bar.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/isotope.pkgd.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/imagesloaded.pkgd.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/count-to.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/YTPlayer.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/jquery.nice-select.min.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/bootsnav.js') }}"></script>
+            <script src="{{ asset('build/javascripts/directory/main.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>

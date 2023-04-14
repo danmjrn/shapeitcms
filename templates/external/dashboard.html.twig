@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="{{ 'Hello and welcome to Shape-iT Solutions! We are a software solution based company seeking
+                        to solve your problem and bring your ideas to life. We build web applications and mobile
+                        applications from ground up, tailored to your specifications.' }}">
+
+    <title>{% block title %}{{ 'Shape-iT Solutions' }}{% endblock %}</title>
+    <!-- Meta Share -->
+    {% block tags %}
+        <meta property="og:title" content="{{ 'Shape-iT Solutions' }}" />
+        <meta property="og:description" content="{{ 'Hello and welcome to Shape-iT Solutions! We are a software solution based company seeking
+                        to solve your problem and bring your ideas to life. We build web applications and mobile
+                        applications from ground up, tailored to your specifications.' }}" />
+{#        <meta property="og:image" content="{{ asset('build/coming-soon/Shape-iT Logo Official.jpg') }}" />#}
+    {% endblock %}
+    <meta name="author" content="Shape It Solutions">
+
+{#    <!-- Favicon icon -->#}
+{#    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('build/coming-soon/Shape-iT Logo Official.jpg') }}">#}
+
+{#    <!-- Touch icons for android and iOS (Bookmark icons) -->#}
+{#    <link rel="shortcut icon" sizes="196x196" href="{{ asset('build/coming-soon/Shape-iT Logo Official.jpg') }}">#}
+{#    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('build/coming-soon/Shape-iT Logo Official.jpg') }}">#}
+{#    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('build/coming-soon/Shape-iT Logo Official.jpg') }}">#}
+{#    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('build/coming-soon/Shape-iT Logo Official.jpg') }}">#}
+{#    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('build/coming-soon/Shape-iT Logo Official.jpgg') }}">#}
+
+    <!-- Schema.org markup for Google+ and facebook -->
+    <!-- <meta property="og:title" content="Sven">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://your-website-url.com"/>
+    <meta property="og:image" content="Use images that are at least 1200 x 630 pixels for the best display on high resolution devices">
+    <meta property="og:description" content="Sven - Creative Coming Soon Template"> -->
+
+    <!-- Schema.org markup for twitter cards(summary_large_image) -->
+    <!-- <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@username">
+    <meta name="twitter:title" content="Title should be concise and will be truncated at 70 characters.">
+    <meta name="twitter:description" content="A description that concisely summarizes the content of the page, as appropriate for presentation within a Tweet. Do not re-use the title text as the description, or use this field to describe the general services provided by the website. Description text will be truncated at the word to 200 characters.">
+    <meta name="twitter:image" content="URL to a unique image representing the content of the page. Do not use a generic image such as your website logo, author photo, or other image that spans multiple pages. Images for this Card should be at least 280px in width, and at least 150px in height. Image must be less than 1MB in size."> -->
+
+    <title>Shape-iT Solutions</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+{#    <link href="{{ asset('build/coming-soon/css/combined/sven-essentials.min.css') }}" rel="stylesheet" type="text/css">#}
+{#    <link href="{{ asset('build/coming-soon/css/combined/page-essentials.min.css') }}" rel="stylesheet" type="text/css">#}
+{#    <link href="{{ asset('build/coming-soon/css/custom/index-local.css') }}" rel="stylesheet" type="text/css">#}
+    <style type="text/css">
+
+        body { /* Primary Text Color */
+            color: #FFF;
+        }
+        .scene-image img { /* To fix images being shown while preloading the teaser */
+            opacity: 0;
+            visibility: hidden;
+        }
+        .bg-white .lt-main { /* Alternating White BG Scenes - Text Color */
+            color: #000;
+        }
+        .lt-main.tint-bl { /* Image Scene Text Color */
+            color: #000;
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="generator">
+
+<div>
+    <h1 style="color: #333333">{{ 'Coming Soon' }}</h1>
+    <p style="color: #333333">{{ dash }}</p>
+</div>
+
+
+</body>
+</html>
